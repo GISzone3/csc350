@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ReschedulingApp.ReschedulingPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Enter the date you want to reschedule and reliever: "/>
+            <Entry x:Name="Month"
+                   Placeholder="Enter Month"/>
+            <Entry x:Name="Day"
+                   Placeholder="Enter Day"/>
+            <Entry x:Name="Year"
+                   Placeholder="Enter Year"/>
+            <Entry x:Name="Reliever"
+                   Placeholder="Enter reliever: "/>
+            <Button Clicked="Button_Clicked"
+                    Text="Submit"/>
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
